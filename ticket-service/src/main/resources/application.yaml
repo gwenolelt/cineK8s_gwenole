@@ -1,5 +1,5 @@
 server:
-  port: 8086
+  port: 8080
   shutdown: graceful
 
 movie:
@@ -13,4 +13,4 @@ management:
         enabled: true
       group:
         readiness:
-          include: readinessState      # TODO — Q1.3 : à compléter
+          include: readinessState,movie      # Q1.3 : readiness dépend de movie-service

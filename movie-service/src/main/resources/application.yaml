@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8080
   shutdown: graceful          # laisse finir les requêtes en cours lors d'un rolling update
 
 movie:
